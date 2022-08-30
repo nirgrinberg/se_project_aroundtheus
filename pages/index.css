@@ -170,14 +170,6 @@
         url("Inter-BlackItalic.woff?v=3.19") format("woff");
 }
 
-/* -------------------------------------------------------
-  Variable font.
-  Usage:
-    html { font-family: 'Inter', sans-serif; }
-    @supports (font-variation-settings: normal) {
-      html { font-family: 'Inter var', sans-serif; }
-    }
-  */
 @font-face {
     font-family: 'Inter var';
     font-weight: 100 900;
@@ -196,16 +188,6 @@
     src: url("Inter-italic.var.woff2?v=3.19") format("woff2");
 }
 
-
-/* --------------------------------------------------------------------------
-  [EXPERIMENTAL] Multi-axis, single variable font.
-  Slant axis is not yet widely supported (as of February 2019) and thus this
-  multi-axis single variable font is opt-in rather than the default.
-  When using this, you will probably need to set font-variation-settings
-  explicitly, e.g.
-    * { font-variation-settings: "slnt" 0deg }
-    .italic { font-variation-settings: "slnt" 10deg }
-  */
 @font-face {
     font-family: 'Inter var experimental';
     font-weight: 100 900;
@@ -214,177 +196,6 @@
     src: url("Inter.var.woff2?v=3.19") format("woff2");
 }
 
-.page {
-    background-color: #000000;
-    min-width: 320px;
-    max-width: 1280px;
-    margin: auto;
-    font-family: "Inter", Arial, sans-serif;
-}
-
-.page__content {
-    margin: 0;
-    color: #ffffff;
-}
-
-.logo {
-    Width: 173px;
-    Height: 33px;
-    Top: 45px;
-    Left: 200px;
-    position: absolute;
-}
-
-.header {
-    width: 880px;
-    height: 74px;
-    margin: 45px 200px 40px;
-    border-bottom: 1px solid rgba(84, 84, 84, 0.7);
-}
-
-.profile {
-    display: flex;
-    align-items: center;
-    margin: 0 200px 51px 200px;
-    justify-content: space-between;
-}
-
-.profile__avatar {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    margin-right: 30px;
-}
-
-.profile__title {
-    font-weight: 500;
-    font-size: 42px;
-    line-height: 48px;
-    margin: 0;
-}
-
-.profile__subtitle {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22.78px;
-    margin: 0px;
-    padding-top: 16px;
-}
-
-.profile__description {
-    flex-grow: 1;
-}
-
-.profile__button {
-    width: 150px;
-    height: 50px;
-    border: 2px solid #fff;
-    flex-shrink: 0;
-    background-color: #000;
-    background-image: url(../images/Add_Button.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 0;
-}
-
-.edit__button {
-    width: 24px;
-    height: 24px;
-    border-color: #fff;
-    background-color: #000;
-    background-image: url(../images/Edit_Button.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 0;
-    margin-right: 165px;
-    margin-top: -30px;
-}
-
-.heart {
-    width: 21px;
-    height: 18px;
-    background-image: url(../images/heart.svg);
-    background-repeat: no-repeat;
-    background-color: transparent;
-    padding: 0;
-    border: none;
-    margin-top: 31px;
-}
-
-.cards {
-    width: 880px;
-    margin: 0 200px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 17px;
-    row-gap: 20px;
-}
-
-.cards__content {
-    width: 282px;
-    height: 361px;
-    background-color: #fff;
-    border-radius: 10px;
-}
-
-.cards__footer {
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 29.05px;
-    color: #000000;
-    display: flex;
-}
-
-.latemar {
-    margin: 25px 121px 25px 20px;
-    width: 100px;
-    height: 29px;
-}
-
-.yosemite {
-    margin: 25px 28px 25px 20px;
-    width: 193px;
-    height: 29px;
-}
-
-.louise {
-    margin: 25px 79px 25px 20px;
-    width: 142px;
-    height: 29px;
-}
-
-.bald {
-    margin: 25px 34px 25px 20px;
-    width: 187px;
-    height: 29px;
-}
-
-.vanoise {
-    margin: 25px 2px 25px 20px;
-    width: 219px;
-    height: 29px;
-    display: block;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-}
-
-.braies {
-    margin: 25px 54px 25px 20px;
-    width: 167px;
-    height: 29px;
-}
-
-
-.footer {
-    width: 318px;
-    height: 18px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21.78px;
-    color: #545454;
-    padding: 67px 762px 60px 200px;
-}
 
 @media (max-width:500px) {
 
