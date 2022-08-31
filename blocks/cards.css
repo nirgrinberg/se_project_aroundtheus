@@ -1,10 +1,10 @@
 .cards {
-    width: 880px;
-    margin: 0 200px auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
     column-gap: 17px;
     row-gap: 20px;
+    justify-items: center;
 }
 
 .cards__content {
@@ -12,52 +12,31 @@
     height: 361px;
     background-color: #fff;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .cards__footer {
     font-weight: 900;
     font-size: 24px;
-    line-height: 29.05px;
-    color: #000000;
+    line-height: 29px;
     display: flex;
+    color: #000;
 }
 
-.latemar {
-    margin: 25px 121px 25px 20px;
-    width: 100px;
-    height: 29px;
+.heart {
+    background-color: #fff;
+    border: none;
+    padding: 0;
+    margin-right: 30px;
 }
 
-.yosemite {
-    margin: 25px 28px 25px 20px;
-    width: 193px;
-    height: 29px;
-}
-
-.louise {
-    margin: 25px 79px 25px 20px;
-    width: 142px;
-    height: 29px;
-}
-
-.bald {
-    margin: 25px 34px 25px 20px;
-    width: 187px;
-    height: 29px;
-}
-
-.vanoise {
-    margin: 25px 2px 25px 20px;
-    width: 219px;
-    height: 29px;
-    display: block;
+.cards__capture {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-}
-
-.braies {
-    margin: 25px 54px 25px 20px;
-    width: 167px;
-    height: 29px;
+    flex: 1;
+    margin-left: 20px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
 }
