@@ -46,12 +46,18 @@
     padding: 0;
 }
 
+.profile__button:hover {
+    border: #0652f5 2px solid;
+}
+
 .profile__plus-sign {
     width: 22px;
     height: 22px;
     align-items: center;
     margin: auto;
+    background-image: url(../images/add_button.png);
 }
+
 
 .profile__edit {
     width: 24px;
@@ -62,4 +68,8 @@
     background-image: url(../images/Edit_Pen.svg);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.profile__edit:hover {
+    border-color: #0652f5;
 }
