@@ -55,7 +55,7 @@
     height: 22px;
     align-items: center;
     margin: auto;
-    background-image: url(../images/add_button.png);
+    background-image: url(../images/add_button.svg);
 }
 
 
@@ -71,5 +71,5 @@
 }
 
 .profile__edit:hover {
-    border-color: #0652f5;
+    border: 2px blue solid;
 }
