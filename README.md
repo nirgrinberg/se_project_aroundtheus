@@ -1,4 +1,4 @@
-Project 3: Around The U.S.
+Project 3: Around The U.S. by Nir Grinberg
 Overview
 Intro
 Figma
@@ -7,11 +7,11 @@ Intro
 
 Around The U.S built for different types of screens. The structure and styles of this project made to practice the skills of building adaptive website. Project has pictures of places and profile of person that potentialy was in this places.
 
-Link to the website
+Link to the website:
 
-https://github.com/nirgrinberg/se_project_aroundtheus.git
+https://nirgrinberg.github.io/se_project_aroundtheus/
 
-Figma
+Figma:
 
 This project is made using Figma designe.
 Project features
@@ -20,3 +20,4 @@ Flexbox
 Positioning
 Flat BEM
 Grid
+@media query
