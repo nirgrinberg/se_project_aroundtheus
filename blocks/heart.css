@@ -2,7 +2,7 @@
     background-color: rgba(0, 0, 0, 0);
     border: none;
     padding: 0;
-    margin-right: 30px;
+    margin: 0 20px 0 auto;
 }
 
 .heart__image:hover {
