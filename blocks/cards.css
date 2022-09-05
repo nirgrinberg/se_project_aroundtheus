@@ -43,7 +43,7 @@
     margin: 0 20px 0 auto;
 }
 
-.heart__image:hover {
+.cards__heart:hover {
     border: black;
     opacity: 0.5;
 }
