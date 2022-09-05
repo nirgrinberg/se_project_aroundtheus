@@ -9,6 +9,7 @@
 
 .cards__card {
     height: 282px;
+    display: block
 }
 
 .cards__content {
@@ -34,11 +35,21 @@
     line-height: 29px;
 }
 
+.cards__heart {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    padding: 0;
+    margin: 0 20px 0 auto;
+}
+
+.cards__heart:hover {
+    border: black;
+    opacity: 0.5;
+}
+
 @media screen and (max-width: 500px) {
     .cards {
-        grid-template-columns: 1fr;
-        grid-template-rows: 6;
         max-width: calc(100% - 38px);
-        margin: auto;
+
     }
 }
