@@ -40,7 +40,7 @@
     background-color: rgba(0, 0, 0, 0);
     border: none;
     padding: 0;
-    margin: 0 20px 0 auto;
+    margin-right: 10px;
 }
 
 .cards__heart:hover {
