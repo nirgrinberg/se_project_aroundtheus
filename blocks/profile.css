@@ -53,17 +53,12 @@
     flex-shrink: 0;
     background-color: rgba(0, 0, 0, 0);
     border: #fff 2px solid;
-    color: #fff;
-    padding: 0;
-    font-size: 44px;
-    font-weight: 100;
-    line-height: 0px;
     border-radius: 2px;
+    min-width: 150px;
 }
 
 .profile__button:hover {
     opacity: 0.6;
-    border: 2px solid #ffffff;
 }
 
 .profile__edit {
@@ -71,7 +66,7 @@
     height: 24px;
     margin-left: 18px;
     background-color: rgba(0, 0, 0, 0);
-    border: 2px solid #ffffff;
+    border: 1px solid #ffffff;
     background-image: url(../images/Pen.svg);
     min-width: 24px;
     background-repeat: no-repeat;
@@ -82,7 +77,6 @@
 
 .profile__edit:hover {
     opacity: 0.6;
-    border: 2px solid #FFFFFF;
 
 }
 
@@ -90,6 +84,10 @@
     .profile__title {
         text-align: center;
         white-space: nowrap;
+        font-size: 22px;
+        line-height: 27px;
+        padding: 0;
+        max-width: 250px;
     }
 
     .profile {
@@ -104,16 +102,17 @@
         overflow: hidden;
         white-space: nowrap;
         min-width: 18px;
+        background-size: 7.5px;
 
     }
 
     .profile__subtitle {
-        text-align: center;
         max-width: 600px;
     }
 
     .profile__button {
         margin-left: 10px;
+        background-size: 7.5px;
     }
 }
 
@@ -157,8 +156,7 @@
     }
 
     .profile__edit {
-        margin: left 10px;
-        min-width: 18px;
+        margin-right: 10px;
 
     }
 

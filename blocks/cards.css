@@ -1,10 +1,10 @@
 .cards {
     display: grid;
     margin: 0 auto;
-    grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
+    grid-template-columns: repeat(auto-fit, 282px);
     column-gap: 17px;
     row-gap: 20px;
-    justify-items: center;
+    justify-content: center;
     max-width: 880px;
 }
 
@@ -40,11 +40,10 @@
     background-color: rgba(0, 0, 0, 0);
     border: none;
     padding: 0;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .cards__heart:hover {
-    border: black;
     opacity: 0.5;
 }
 
