@@ -5,7 +5,6 @@
 }
 
 .header__logo {
-    align-self: start;
     padding-bottom: 41px;
 }
 
@@ -17,7 +16,6 @@
     }
 
     .header {
-        align-items: center;
         margin: 0;
     }
 }
